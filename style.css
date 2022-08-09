@@ -1,0 +1,693 @@
+body {
+    background-color: #220838;
+}
+
+#MostCertainlyTrueInformation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+}
+
+#MostCertainlyTrueInformation2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+}
+
+#FirstPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px dashed #1b072d;
+}
+
+#SecondPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px solid #ffa200;
+}
+
+#ThirdPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px dotted #00aeff;
+}
+
+#SixthPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px dashed #1b072d;
+}
+
+#FourthPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px solid #ffa200;
+}
+
+#FifthPerson {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 247, 255);
+    color: rgb(112, 1, 1);
+    padding: 2px;
+    border: 2px dotted #00aeff;
+}
+
+
+.Information {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.Fancy {
+    width: 99.5%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(236, 207, 255);
+    color: #1b072d;
+    padding: 5px;
+}
+
+#Gender {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+}
+
+#Birthday {
+    display: inline-flex;
+    color: brown;
+}
+
+#Gender2 {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name2 {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location2 {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email2 {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+}
+
+#Birthday2 {
+    display: inline-flex;
+    color: brown;
+}
+
+#Gender3 {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name3 {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location3 {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email3 {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+}
+
+#Birthday3 {
+    display: inline-flex;
+    color: brown;
+}
+
+#Gender4 {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name4 {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location4 {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email4 {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+    font-size: 8.5px;
+}
+
+#Birthday4 {
+    display: inline-flex;
+    color: brown;
+}
+
+#Gender5 {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name5 {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location5 {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email5 {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+}
+
+#Birthday5 {
+    display: inline-flex;
+    color: brown;
+}
+
+#Gender6 {
+    display: inline-flex;
+    color: #ff0066;
+}
+
+#Name6 {
+    display: inline-flex;
+    color: #1b072d;
+}
+
+#Location6 {
+    display: inline-flex;
+    color: orangered;
+}
+
+#Email6 {
+    display: inline-flex;
+    color: rgb(162, 0, 255);
+}
+
+#Birthday6 {
+    display: inline-flex;
+    color: brown;
+}
+
+#thyButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b3fde5;
+    padding: 5px;
+}
+
+#thySearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #b3fde5;
+    padding: 5px;
+    text-align: center;
+}
+
+#NameAndGenderSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #c3aef4;
+    color: #5c5c5c;
+    text-shadow:1px 1px #1b072d;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+#NameAndGenderSearch:hover {
+    box-shadow: 2px 2px #220838;
+    border:2px dashed #250237;
+    font-style: italic;
+}
+
+/* #FullAndAllInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #c3aef4;
+    color: #5c5c5c;
+    text-shadow:1px 1px #1b072d;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+} */
+
+#random_btn {
+    border: 2px dashed #34eba8;
+    background-color: #cffbfc;
+    color: #23804d;
+    box-shadow: 4px 4px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+}
+
+#random_btn:hover {
+    border: 2px solid #8934eb;
+    box-shadow: 4px 4px rgb(32, 129, 63);
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px rgb(72, 58, 58);
+}
+
+@media(max-width: 360px){
+    body {
+        background-color: #220838;
+    }
+    
+    #MostCertainlyTrueInformation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        font-size: 11px;
+    }
+    
+    #MostCertainlyTrueInformation2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        font-size: 11px;
+    }
+    
+    #FirstPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px dashed #1b072d;
+    }
+    
+    #SecondPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px solid #ffa200;
+    }
+    
+    #ThirdPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px dotted #00aeff;
+    }
+    
+    #SixthPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px dashed #1b072d;
+    }
+    
+    #FourthPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px solid #ffa200;
+    }
+    
+    #FifthPerson {
+        width: 150px;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        background-color: rgb(200, 247, 255);
+        color: rgb(112, 1, 1);
+        padding: 2px;
+        border: 2px dotted #00aeff;
+    }
+    
+    
+    .Information {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    .Fancy {
+        width: 99.5%;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(236, 207, 255);
+        color: #1b072d;
+        padding: 5px;
+    }
+    
+    #Gender {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #Gender2 {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name2 {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location2 {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email2 {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday2 {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #Gender3 {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name3 {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location3 {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email3 {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday3 {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #Gender4 {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name4 {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location4 {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email4 {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday4 {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #Gender5 {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name5 {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location5 {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email5 {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday5 {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #Gender6 {
+        display: inline-flex;
+        color: #ff0066;
+        flex-wrap: wrap;
+    }
+    
+    #Name6 {
+        display: inline-flex;
+        color: #1b072d;
+        flex-wrap: wrap;
+    }
+    
+    #Location6 {
+        display: inline-flex;
+        color: orangered;
+        flex-wrap: wrap;
+    }
+    
+    #Email6 {
+        display: inline-flex;
+        color: rgb(162, 0, 255);
+        font-size: 7.5px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+    }
+    
+    #Birthday6 {
+        display: inline-flex;
+        color: brown;
+        flex-wrap: wrap;
+    }
+    
+    #thyButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #b3fde5;
+        padding: 5px;
+    }
+    
+    #thySearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #b3fde5;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #NameAndGenderSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #c3aef4;
+        color: #5c5c5c;
+        text-shadow:1px 1px #1b072d;
+        padding: 5px;
+        text-align: center;
+        width: 250px;
+    }
+    
+    #NameAndGenderSearch:hover {
+        box-shadow: 2px 2px #220838;
+        border:2px dashed #250237;
+        font-style: italic;
+    }
+    
+    /* #FullAndAllInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #c3aef4;
+        color: #5c5c5c;
+        text-shadow:1px 1px #1b072d;
+        padding: 5px;
+        text-align: center;
+        width: 250px;
+    } */
+    
+    #random_btn {
+        border: 2px dashed #34eba8;
+        background-color: #cffbfc;
+        color: #23804d;
+        box-shadow: 4px 4px black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 550;
+    }
+    
+    #random_btn:hover {
+        border: 2px solid #8934eb;
+        box-shadow: 4px 4px rgb(32, 129, 63);
+        font-style: italic;
+        font-weight: bold;
+        text-shadow: 0.5px 0.5px rgb(72, 58, 58);
+    }
+
+    .PeopleImage{
+        width: 40px;
+        height: 40px;
+    }
+}
